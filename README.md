@@ -13,8 +13,8 @@ Our database list is provided here: https://breached.co/databases // http://brea
 
 ## User Data Dictionary
 
-|  | Attribute | Type | Description |
-| :-: | :-: | :-: |:-: |
+| Attribute | Type | Description |
+| :-: | :-: |:-: |
 | id | Int64 | The integer representation of the unique identifier for this User. This number is greater than 53 bits and some programming languages may have difficulty/silent defects in interpreting it. Using a signed 64 bit integer for storing this identifier is safe. Use id_str to fetch the identifier to be safe. See Twitter IDs for more information. Example: "id": 6253282
 | name | String | The name of the user, as they’ve defined it. Not necessarily a person’s name. Typically capped at 50 characters, but subject to change. Example: "name": "Twitter API"
 |screen_name | String | The screen name, handle, or alias that this user identifies themselves with. screen_names are unique but subject to change. Use id_str as a user identifier whenever possible. Typically a maximum of 15 characters long, but some historical accounts may exist with longer names. Example: "screen_name": "twitterapi"                      
