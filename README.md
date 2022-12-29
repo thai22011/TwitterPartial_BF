@@ -1,6 +1,6 @@
 # An Overview of The 5.4M Leaked Twitter Accounts
 
-ALl Emails and Phone Numbers were removed for Privacy Reasons
+All Emails and Phone Numbers were removed for Privacy Reasons
 
 ## INTRODUCTION
 
