@@ -12,7 +12,7 @@ This file has been downloaded from BreachForums. Please check us out.
 Our database list is provided here: https://breached.co/databases // http://breached65xqh64s7xbkvqgg7bmj4nj7656hcb7x4g42x753r7zmejqd.onion/databases
 
 ## User Data Dictionary
-<span style = 'font-size:12px'>
+
 | Attribute | Type | Description |
 | :-: | :-: |:-: |
 | id | Int64 | The integer representation of the unique identifier for this User. This number is greater than 53 bits and some programming languages may have difficulty/silent defects in interpreting it. Using a signed 64 bit integer for storing this identifier is safe. Use id_str to fetch the identifier to be safe. See Twitter IDs for more information. Example: "id": 6253282
@@ -32,7 +32,7 @@ Our database list is provided here: https://breached.co/databases // http://brea
 | profile_image_url_https | String  | A HTTPS-based URL pointing to the user’s profile image. Example: "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"
 | default_profile | Boolean | When true, indicates that the user has not altered the theme or background of their user profile. Example: "default_profile": false
 | default_profile_image | Boolean | When true, indicates that the user has not uploaded their own profile image and a default image is used instead. Example: "default_profile_image": false
-</span>
+
 
 
 ## Conclusion
