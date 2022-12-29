@@ -2,16 +2,16 @@
 
 All Emails and Phone Numbers were removed for Privacy Reasons
 
-## INTRODUCTION
+# Introduction
 
 A security vulnerability in Twitter's API was exploited to steal over 5.4 million user records containing private information, which were subsequently shared on a hacker forum, Breached. The data was originally sold for  $30,000 in July 2022 and is now available for free. Let's do a EDA to understand more about the leaked accounts. All emails and phone numbers were removed for privacy reasons.
 
-## Source
+# Source
 
 This file has been downloaded from BreachForums. Please check us out.
 Our database list is provided here: https://breached.co/databases // http://breached65xqh64s7xbkvqgg7bmj4nj7656hcb7x4g42x753r7zmejqd.onion/databases
 
-## User Data Dictionary
+# User Data Dictionary
 
 | Attribute | Type | Description |
 | :-: | :-: |:-: |
