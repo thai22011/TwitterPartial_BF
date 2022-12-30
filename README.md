@@ -2,9 +2,20 @@
 
 All Emails and Phone Numbers were removed for Privacy Reasons
 
-# Introduction
+# Summary
 
-A security vulnerability in Twitter's API was exploited to steal over 5.4 million user records containing private information, which were subsequently shared on a hacker forum, Breached. The data was originally sold for  $30,000 in July 2022 and is now available for free. Let's do a EDA to understand more about the leaked accounts. All emails and phone numbers were removed for privacy reasons.
+![](/Reports/breached-forum-post.webp)
+
+**UPDATED**: On Dec 23rd 2022, a hacker was selling the info of approx 400M Twitter accounts, which contains most if not all of the existing accounts. I recommend you to change your passwords ASAP and keep an eye out on your phone and email info. Over the next 24 months, you may receive fake calls and spam emails.
+
+A security vulnerability in Twitter's API was exploited to steal over 5.4 million user records containing private information, which were subsequently shared on a hacker forum, Breached. The data was originally sold for  $30,000 in July 2022 and is now available for free.
+
+Now it made sense why Elon Musk tried to back out from the $44B Twitter deal due to his concerns about bot accounts. It's TRUE, over 63% of all accounts showed no likes, and 24% of all accounts had no following. Lastly, over 99.94% of all accounts are NON-verified, this was why Elon tried to roll out the verified badge subscription model. It also made sense why he fired 75% of the employees; like you don't need that many people to look after the inactive accounts, duh!
+
+![](/Reports/Twitter_account_activities.PNG)
+![](/Reports/Twitter_accounts_likes.PNG)
+![](/Reports/Twitter_verified.PNG)
+![](/Reports/TwitterPartial_Account_Creation_Timeline.png)
 
 # Source
 
@@ -32,11 +43,6 @@ Our database list is provided here: https://breached.co/databases // http://brea
 | profile_image_url_https | String  | A HTTPS-based URL pointing to the user’s profile image. Example: "profile_image_url_https": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png"
 | default_profile | Boolean | When true, indicates that the user has not altered the theme or background of their user profile. Example: "default_profile": false
 | default_profile_image | Boolean | When true, indicates that the user has not uploaded their own profile image and a default image is used instead. Example: "default_profile_image": false
-
-
-
-## Conclusion
-
 
 # Citation
 Use this bibtex to cite this repository:
