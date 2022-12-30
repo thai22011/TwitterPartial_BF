@@ -17,6 +17,14 @@ Now it made sense why Elon Musk tried to back out from the $44B Twitter deal due
 ![](/Reports/Twitter_verified.PNG)
 ![](/Reports/TwitterPartial_Account_Creation_Timeline.png)
 
+## EDA Report
+
+SweetViz Python Library Report:
+![](/Reports/sweet_report.html)
+
+Pandas Profiling Python Report:
+![](/Reports/Twitter_profiling.html)
+
 # Source
 
 This file has been downloaded from BreachForums. Please check us out.
